@@ -1,0 +1,15 @@
+# Pesos del modelo (GitHub rechaza > 100 MB)
+modelo/*.safetensors
+modelo/*.bin
+modelo/checkpoint-*/
+
+# Entorno virtual
+.venv/
+
+# Claves y secretos
+.env
+
+# Temporales de Python, Jupyter y Mac
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
