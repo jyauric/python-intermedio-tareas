@@ -1,0 +1,8 @@
+# datos descargados: se vuelven a bajar al correr el notebook
+data/*
+# la base de distritos no se descarga: sí se sube
+!data/distritos_peru.geojson
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
